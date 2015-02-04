@@ -1,0 +1,22 @@
+{
+    "name": "syamgot/php-curl",
+    "description": "php curl function wrapper",
+    "keywords": ["curl"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/syamgot/php-curl",
+    "authors": [
+      {
+        "name": "syamgot",
+        "email": "syamgot@gmail.com"
+      }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+      "psr-0": {
+        "syamgot\\Curl": "src/"
+      }
+    }
+}
